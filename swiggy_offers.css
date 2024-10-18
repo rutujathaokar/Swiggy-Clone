@@ -1,0 +1,80 @@
+body{
+    font-family: "Basis Grotesque Pro", Arial, sans-serif !important;
+}
+.logo{
+    margin: 20px 10px;
+    height: 80px;
+}
+.header-container{
+    display:flex;
+}
+.pages-text{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+.pages-text:hover{
+    color: orangered;
+    font-weight: 600;
+}
+.search__input{
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 15px 30px;
+    padding: 10px;
+    width: 900px;
+    height: 40px;
+}
+.cards{
+    background-color: #ffffff;
+    width: 250px;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.cards-container{ 
+    display: flex;
+    flex-wrap: wrap;
+ }
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease; /* transform ke bager trasform nhi laga skte. smooth transition for the image.*/
+}
+.cards:hover img{
+    transform:scale(1.1); /* image ko bada krenga matlb ki image ki scale ko bada krenga. */
+}
+.card-title{
+    font-weight: 600;
+}
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+.cards:hover .card-title, .cards:hover .card-info, .cards:hover .card-rate{
+    transition: color 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.button{
+    border-radius: 50px;
+    width: 120px;
+    height: 25px;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.button:hover{
+    cursor: pointer;
+}
+.margin{
+    margin-left: 50px;
+}
+.search{
+    align-items: center;
+    margin-left: 350px;
+}

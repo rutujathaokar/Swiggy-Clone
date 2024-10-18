@@ -1,0 +1,56 @@
+body{
+    font-family:     "Basis Grotesque Pro", Arial, sans-serif !important;
+}
+.logo{
+    margin: 20px 10px;
+    height: 80px;
+}
+.header-container{
+    display:flex;
+}
+.pages-text{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+.pages-text:hover{
+    color: orangered;
+    font-weight: 600;
+}
+.sign{
+    height: 700px;
+    width: 500px;
+    border: 1px solid black;
+}
+.input{
+    padding: 10px;
+    margin-top: 10px;
+    width: 350px;
+    display: flex;
+    border-radius: 5px;
+}
+h2{
+    font-size: 40px;
+}
+.icon{
+    margin-right: 430px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+a{
+    margin-top: 200px;
+}
+button{
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    background-color: orangered;
+    color: #000000;
+    font-weight: 700;
+    font-size: larger;
+
+}
+

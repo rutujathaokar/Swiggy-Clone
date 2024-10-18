@@ -1,0 +1,35 @@
+body{
+    font-family:     "Basis Grotesque Pro", Arial, sans-serif !important;
+}
+.logo{
+    margin: 20px 10px;
+    height: 80px;
+}
+.header-container{
+    display:flex;
+}
+.pages-text{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+.pages-text:hover{
+    color: orangered;
+    font-weight: 600;
+}
+button{
+    color: #000000;
+    font-weight: 800;
+    margin-top: 26px;
+    height: 40px;
+    width: 300px;
+    background-color: orangered;
+    color: aliceblue;
+}
+.div{
+    width: 800px;
+    height: 900px;
+}

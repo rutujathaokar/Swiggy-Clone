@@ -1,0 +1,92 @@
+
+.logo{
+    margin: 20px 10px;
+    height: 80px;
+}
+.header-container{
+    display:flex;
+}
+.pages-text{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+.pages-text:hover{
+    color: orangered;
+    font-weight: 600;
+}
+.outer-div {
+    background-color: #37718E; /* Background color for outer div */
+    padding: 20px;
+    height: 840px;
+}
+
+.inner-div {
+    background-color:white; /* Background color for inner div */
+    padding: 20px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.inner2-div{
+    background-color: #545454;;
+    margin-right: 20px;
+    height: 650px;
+    width: 300px;
+}
+.inner3-div{
+     
+    height: 650px;
+    width: 1000px;
+    
+}
+.flex-container{
+    display: flex;
+}
+
+h3{
+    line-height: 100px;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: larger;
+    background-color: rgb(242, 239, 237);
+    text-align: center;
+}
+h1,p{
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.que{
+    font-size: larger;
+    margin-left: 20px;
+    
+}
+h2{
+    margin-left: 30px;
+}
+.arrow1{
+    margin-left: 800px;
+}
+.arrow2{
+    margin-left: 220px;
+}
+.arrow3{
+    margin-left: 800px;
+}
+.arrow4{
+    margin-left: 110px;
+}
+.arrow5{
+    margin-left: 180px;
+}
+.arrow6{
+    margin-left: 270px;
+}
+.arrow7{
+    margin-left: 395px;
+}
